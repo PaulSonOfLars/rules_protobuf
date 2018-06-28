@@ -109,5 +109,5 @@ To update this list, `bazel build @org_pubref_rules_protobuf//:deps && cp bazel-
 | Rule | Workspace | Detail |
 | ---: | :--- | :--- |
 | [bind](https://docs.bazel.build/versions/master/be/workspace.html#bind) | **`@protoc_gen_grpc_node`** | `//external:protoc_gen_grpc_node` (`@com_google_grpc//:grpc_node_plugin`) |
-| [npm_repository](https://github.com/pubref/rules_node#npm_repository) | **`@npm_protobuf_stack`** | [async@1.5.2](https://npmjs.org/package/async), [google-protobuf@3.1.1](https://npmjs.org/package/google-protobuf), [lodash@4.6.1](https://npmjs.org/package/lodash), [minimist@1.2.0](https://npmjs.org/package/minimist) |
+| [npm_repository](https://github.com/pubref/rules_node#npm_repository) | **`@npm_protobuf_stack`** | [async@2.6.0](https://npmjs.org/package/async), [google-protobuf@3.5.0](https://npmjs.org/package/google-protobuf), [lodash@4.17.5](https://npmjs.org/package/lodash), [minimist@1.2.0](https://npmjs.org/package/minimist) |
 | [npm_repository](https://github.com/pubref/rules_node#npm_repository) | **`@npm_grpc`** | [grpc@1.0.0](https://npmjs.org/package/grpc) |

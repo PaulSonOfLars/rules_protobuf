@@ -73,15 +73,7 @@ of this project are to:
 If you have not already installed `bazel` on your workstation, follow
 the [bazel instructions][bazel-install].
 
-**Bazel 0.5.2 or above is required for go support.  Bazel 0.5.3 is
-  [incompatible](https://github.com/bazelbuild/bazel/issues/3622) (but
-  0.5.4 should work).**
-
-> Note about protoc and related tools: bazel and rules_protobuf will
-> download or build-from-source all required dependencies, including
-> the `protoc` tool and required plugins.  If you do already have
-> these tools installed on your workstation, bazel will *not* use
-> them.
+> NOTE: Bazel 0.8.0 or above is required for go support. 
 
 ## 2. Add rules_protobuf your WORKSPACE
 
@@ -92,7 +84,7 @@ language-specific `*_proto_repositories` rule(s):
 git_repository(
   name = "org_pubref_rules_protobuf",
   remote = "https://github.com/pubref/rules_protobuf",
-  tag = "v0.8.1",
+  tag = "v0.8.2",
   #commit = "..." # alternatively, use latest commit on master
 )
 
